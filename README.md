@@ -21,4 +21,7 @@ Build your model architecture in the code cell below. We have imported some laye
 Remember that your input is a sequence of words (technically, integer word IDs) of maximum length = `max_words`, and your output is a binary sentiment label (0 or 1).
 ## Step 9: Train and evaluate your model
 Now you are ready to train your model. In Keras world, you first need to _compile_ your model by specifying the loss function and optimizer you want to use while training, as well as any evaluation metrics you'd like to measure. Specify the approprate parameters, including at least one metric `'accuracy'`.
-Finally, the test accuracy: 0.8732
+## Step 10: Comparison of experimental results
+In this project, the test accuracy for BOW model is 0.72768. For GradientBoostingClassifier, the test accuracy is 0.79004.
+However, I built a naive RNN model, which can achieve the test accuracy: 0.8732.
+This proves that the power of deep learning.
